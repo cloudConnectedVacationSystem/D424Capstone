@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Travel Planner App</title>
+  <title>Cloud Connected Travel Planning System</title>
 </head>
 <body>
   <h1>Travel Planner App</h1>
@@ -11,7 +11,7 @@
 
   <h2>Download the App APK</h2>
   <p>
-    <a href="CloudVacationPlanner.apk" download>Download Travel Planner APK</a>
+    <a href="./CloudVacationPlanner.apk" download>Download Travel Planner APK</a>
   </p>
 
   <h2>Link to My Backend</h2>
@@ -20,5 +20,22 @@
       View AWS Backend here!
     </a>
   </p>
+ <h1>Overview</h1>
+ <p>This project is a full stack android travel planning app for my WGU D424 Software Engineering Capstone Task 3.<br>
+
+This app is meant to allow users too:<br>
+	- Create, edit, and delete vacations and excursions<br>
+	- Search through records<br>
+	- Generate reports<br>
+	- Sync your data with the cloud<br>
+
+My Spring Boot backend was deployed to AWS Elastic Beanstalk. The backend connects to an AWS RDS MySQL database using the environment varialbles that were configured in Elastic Beanstalk.<br>
+
+My deployed app backend URL is:<br>
+http://capstone-app-env.eba-6epzk4je.us-east-2.elasticbeanstalk.com<br>
+
+The android app front end connects to the cloud backend through the ApiCleint.java address.<br>
+
+ </p>
 </body>
 </html>
